@@ -1,0 +1,353 @@
+
+/* General */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    padding-top: 70px; /* Space for fixed navbar */
+}
+
+.navbar-light .navbar-brand img {
+    height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333 !important;
+    padding: 0 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #555 !important;
+}
+
+/* Social Icons */
+.social-icon {
+    font-size: 1.5rem;
+    color: black !important; /* Ensure the icons are always black */
+    transition: transform 0.3s ease; /* Only apply transform on hover */
+}
+
+.social-icon:hover {
+    color: black !important; /* Keep icons black on hover */
+    transform: scale(1.2); /* Add a slight scale effect */
+}
+
+/* Portfolio Image Style */
+.carousel-item img {
+    border-radius: 12px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* Body and Layout */
+body {
+    padding-top: 70px; /* Adds spacing for the fixed navbar */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+/* Portfolio Preview Section */
+#portfolio-preview {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+#portfolio-preview .carousel-item {
+    border-radius: 12px;
+}
+
+/* Additional Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .navbar-custom .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+
+    .social-icon {
+        font-size: 1.3rem;
+    }
+}
+/* Hide navbar initially */
+.navbar-hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+}
+
+/* Navbar Logo */
+.navbar-logo {
+    height: 70px; /* Adjust to your logo's height */
+    width: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+}
+
+.navbar-logo:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Navbar Brand (Logo) */
+.navbar-custom .navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    color: black !important; /* Ensure brand text is black */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Change logo color on hover */
+.navbar-custom .navbar-brand:hover {
+    color: #ffdd59; /* Hover effect for the logo */
+}
+
+/* Navbar Links */
+.navbar-custom .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black !important; /* Ensure all navbar links are black */
+    text-transform: uppercase;
+    padding: 12px 25px; /* Add more padding for better spacing */
+    transition: color 0.3s ease, padding-left 0.3s ease, transform 0.3s ease;
+}
+
+/* Navbar Link Hover */
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #ffdd59; /* Customize the hover color */
+    padding-left: 30px;
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+/* Navbar Custom Styles */
+.navbar-custom {
+    background-color: #f8f5f1; /* Light beige background */
+    padding: 10px 20px;
+      font-family: 'Georgia', serif; /* Elegant serif font */
+}
+
+.navbar-brand {
+    font-size: 24px; /* Larger font for the logo */
+    font-weight: 600;
+    color: #d1453b; /* Elegant muted red color */
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Spacing between letters */
+}
+
+.navbar-nav .nav-link {
+    color: #333; /* Subtle black color for links */
+    text-decoration: none;
+    font-size: 16px; /* Standard font size */
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d1453b; /* Match the logo color on hover */
+    border-bottom: 2px solid #d1453b; /* Underline effect */
+}
+
+.social-icon {
+    font-size: 20px; /* Slightly larger size for the icon */
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #d1453b; /* Match hover color with links and logo */
+    transform: scale(1.2); /* Subtle zoom on hover */
+}
+/* Portfolio Image Style */
+.carousel-item img {
+    border-radius: 12px; /* Rounded corners */
+    object-fit: cover; /* Ensure the image covers the container */
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+}
+
+/* Hover Effect for Images */
+.carousel-item img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    border-radius: 16px; /* More rounded corners on hover */
+}
+
+/* Ensuring proper height and width of the carousel */
+.carousel {
+    width: 100%;
+    height: 80vh; /* Adjust to your desired height */
+    overflow: hidden;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; /* Ensure image fills the full height */
+}
+/* Make the navbar transparent */
+.navbar {
+  background-color: transparent !important;
+  box-shadow: none !important; /* Remove any shadow effect if present */
+}
+
+/* Make the footer transparent */
+.footer {
+  background-color: transparent !important;
+  box-shadow: none !important; /* Optional: remove shadow if there's any */
+}
+
+/* Optional: if you want text or other elements in the navbar and footer to stand out */
+.navbar, .footer {
+  color: black; /* Adjust text color to white for contrast */
+}
+
+/* Optional: if your navbar has a specific item container like .navbar-brand */
+.navbar .navbar-brand, .navbar .navbar-nav .nav-link {
+  color:black !important; /* Ensure the text and links are white */
+}
+
+
+  
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .carousel-item {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+  }
+  
+/* Reset default padding, margin, and box-sizing for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure html and body take up the full viewport height and width */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: transparent;
+    position: absolute; /* Default position */
+    width: 100%;
+    z-index: 10;
+    padding: 4px 0;
+}
+
+
+
+/* Center the caption below the image */
+.caption {
+    position: absolute;
+    bottom: 20px; /* Adjust position */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: rgb(13, 1, 1);
+    z-index: 1000;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* Footer positioning at the bottom */
+.footer {
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    z-index: 1000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .caption {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        bottom: 10px; /* Adjust caption position */
+    }
+    .footer {
+        padding: 5px; /* Adjust footer padding */
+    }
+}
+
+  
+
+  /* Centered Slider */
+.custom-slider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%; /* Increased the width for a wider slider */
+    height: 70vh; /* Adjust image height for better view */
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.slider-image {
+    width: 100%;
+    height: 100%; /* Ensure images fill the container */
+    object-fit: cover; /* Ensure images cover the area */
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

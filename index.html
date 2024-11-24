@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slideshow Background with Navbar</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="LOGO1.png" alt="PixelLens Logo" class="navbar-logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="pricing.html">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Slideshow Background -->
+  <div id="slideshow">
+    <div class="carousel-item active" style="background-image: url('front.jpeg');"></div>
+  </div>
+  <!-- Slider -->
+  <div class="custom-slider" id="featuredSlider">
+    <div class="slider-wrapper">
+      <img src="9.jpg" class="slider-image" alt="Featured Slide 1">
+      <img src="8.jpg" class="slider-image" alt="Featured Slide 2">
+      <img src="18.jpg" class="slider-image" alt="Featured Slide 3">
+      <img src="3.jpg" class="slider-image" alt="Featured Slide 1">
+      <img src="6.jpg" class="slider-image" alt="Featured Slide 2">
+      <img src="15.jpg" class="slider-image" alt="Featured Slide 3">
+      <img src="19.jpg" class="slider-image" alt="Featured Slide 1">
+      <img src="20.jpg" class="slider-image" alt="Featured Slide 2">
+      <img src="21.jpg" class="slider-image" alt="Featured Slide 3">
+   
+    </div>
+  </div>
+  <div class="caption">
+    <h2>Framing Memories, Capturing Magic."</h2>
+      </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 PixelLens. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
